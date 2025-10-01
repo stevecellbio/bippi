@@ -16,7 +16,7 @@ Download music from YouTube and other sources with ease!
 Install directly from GitHub using Cargo:
 
 ```bash
-cargo install --git https://github.com/landonrogers/bippi
+cargo install --git https://github.com/stevecellbio/bippi
 ```
 
 ### 📋 Requirements
