@@ -2,16 +2,7 @@
 
 Download music from YouTube and other sources with ease!
 
-## ✨ Features
-
-- 🎤 **Single Track Downloads** - Download individual songs by URL, search query, or alias
-- 💿 **Album Downloads** - Download entire albums or playlists with automatic metadata
-- 🎯 **MusicBrainz Integration** - Fetch accurate album information and track metadata
-- 🏷️ **Aliases** - Create shortcuts for frequently downloaded URLs
-- ⚙️ **Configuration** - Set default download directories and preferences
-- 🎼 **Multiple Formats** - Support for mp3, m4a, flac, and more
-
-## 📦 Installation
+##  installation
 
 Install directly from GitHub using Cargo:
 
@@ -23,7 +14,7 @@ cargo install --git https://github.com/stevecellbio/bippi
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) must be installed and available in your PATH
 
-## 🚀 Usage
+
 
 ### Download a single track
 
@@ -51,7 +42,7 @@ bippi album https://www.youtube.com/playlist?list=PLxxx
 bippi album my-album
 ```
 
-### Create aliases 🏷️
+### Create aliases 
 
 ```bash
 # Create an alias for a single track
@@ -67,7 +58,7 @@ bippi alias list
 bippi alias remove focus
 ```
 
-### Configure settings ⚙️
+### Configure settings 
 
 ```bash
 # Set default download directory
@@ -80,7 +71,7 @@ bippi config show
 bippi config clear-dest
 ```
 
-### Specify output format and destination 🎛️
+### Specify output format and destination 
 
 ```bash
 # Download as FLAC to a specific directory
